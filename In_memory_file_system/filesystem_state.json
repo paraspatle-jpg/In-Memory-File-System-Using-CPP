@@ -1,0 +1,17 @@
+{
+    "children": {
+        "paras": {
+            "children": {
+                "..": "prev"
+            },
+            "content": "",
+            "fullPath": "/paras",
+            "isDirectory": true,
+            "name": "paras"
+        }
+    },
+    "content": "",
+    "fullPath": "",
+    "isDirectory": true,
+    "name": ""
+}
