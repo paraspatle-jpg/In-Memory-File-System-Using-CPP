@@ -13,14 +13,14 @@ All the paths must be relative to current directory, absolute path will not work
 ### mkdir - Create a New Directory
 
 Description:
-Creates a new directory in the current or specified path.
+Creates a new directory.
 
     mkdir <directory_name>
 
 ### cd - Change Directory
 
 Description:
-Changes the current directory to the specified path. Supports navigating to the parent directory using ".." and moving to the root directory using "/" or to a specified absolute path.
+Changes the current directory to the specified path. Supports navigating to the parent directory using "..".
 
     cd <path>
 
