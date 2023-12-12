@@ -7,6 +7,18 @@
     Click on the In_memory_file_system.sln file, to open the project.
     Click to on f5 to run the project.
 
+## Design
+So, I have used Trie for implementing the File system, a node of a trie represent and entity, and entry can be a file/directory.
+A node of trie contains : 
+
+            name(name of the file/directory)
+            children(a map of all the files/directories that a directory contains)
+            isDirectory( as the name suggests its a flag to differentiate between file and directory)
+            fullPath( full path relative to the root folder)
+            content( contents if the entity is a file)
+Every entity has a children ".." which points to the parent except root.
+This child is added when we create an entity with command like touch and mkdir.
+            
 ## Documentation
 ### Important Note
 All the paths must be relative to current directory, absolute path will not work.
