@@ -8,7 +8,7 @@
     Click to on f5 to run the project.
 
 ## Design
-So, I have used Trie for implementing the File system, a node of a trie represent and entity, and entry can be a file/directory.
+So, I have used Trie for implementing the File system, a node of a trie represent and entity, and an entity can be a file/directory.
 A node of trie contains : 
 
             name(name of the file/directory)
