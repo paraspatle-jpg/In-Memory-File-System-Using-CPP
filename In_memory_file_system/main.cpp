@@ -48,7 +48,7 @@ int main() {
         std::string input;
         getline(std::cin, input);
         std::vector<std::string> splitInput = splitString(input);
-
+        
         if (splitInput.size() == 0) {
             continue;
         }
